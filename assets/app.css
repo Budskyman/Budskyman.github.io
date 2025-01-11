@@ -50,3 +50,8 @@ body {
 .modal-body {
   text-align: left;
 }
+.logo-small {
+  width: 100px; /* Lebar maksimal logo */
+  height: auto; /* Menjaga rasio aspek gambar */
+  margin-bottom: 10px; /* Memberikan jarak dengan konten di bawahnya */
+}
