@@ -9,7 +9,6 @@
       rel="stylesheet" 
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
       crossorigin="anonymous">
-    />
     <link rel="stylesheet" href="assets/app.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -30,7 +29,7 @@
                 <a class="nav-link" style="color : aqua" href="#biodata">Biodata</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" style="color : aqua" href="#Achievement">Achievement</a>
+                <a class="nav-link" style="color : aqua" href="#Experience">Experience</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" style="color : aqua" href="#contact">Contact</a>
@@ -64,31 +63,81 @@
               Saya adalah seorang anak tunggal yang lahir pada 20 Agustus 2002, di Jakarta. Saya merupakan seorang lulusan dari SMK Mitra Industri MM2100 dengan jurusan Saya yaitu Teknik Sepeda Motor. Saat ini Saya juga sedang menjalani masa kuliah di Universitas Pelita Bangsa dengan Program Studi Teknik Informatika.
             </div>
             <div class="col button-sm">
-              <!-- Button trigger modal -->
-              <p class="text-center">Started On</p>
+              <!-- Profile -->
+              <p class="text-center">Profile</p>
               <h1>
-                <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#educationModal">
-                  Education
+                <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#dataDiriModal">
+                  Data Diri
                 </button>
               </h1>
-              <h2>
-                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#workingExperienceModal">
-                  Working Experience
-                </button>
-              </h2>
-      
-              <!-- Education Modal -->
-              <div class="modal fade" id="educationModal" tabindex="-1" aria-labelledby="educationModalLabel" aria-hidden="true">
+
+              <!-- Data Diri Modal -->
+              <div class="modal fade" id="dataDiriModal" tabindex="-1" aria-labelledby="dataDiriModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="educationModalLabel">Pendidikan Sekolah</h1>
+                      <h1 class="modal-title fs-5" id="dataDiriModalLabel">Data Diri</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Nama: Haris Budiman</p>
+                      <p>Tempat, Tanggal Lahir: Jakarta, 20 Agustus 2002</p>
+                      <p>Alamat: Perum. Mega Regency Blok L7 No.34, Ds. Sukaragam, Kec. Serang Baru, Bekasi-17334</p>
+                      <p>Agama: Islam</p>
+                      <p>Kewarganegaraan: Indonesia</p>
+                      <p>Status: Belum Menikah</p>
+                      <p>No. HP: 088973767509</p>
+                      <p>Email: hbudiman584@gmail.com</p>
+                      <p>Hobby: Bermain game dan Bernyanyi</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Karir -->
+              <p class="text-center">Karir</p>
+              <h1>
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#pendidikanModal">
+                  Pendidikan
+                </button>
+              </h1>
+
+              <!-- Pendidikan Modal -->
+              <div class="modal fade" id="pendidikanModal" tabindex="-1" aria-labelledby="pendidikanModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="pendidikanModalLabel">Pendidikan</h1>
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
                       <h1 style="font-size: medium">SDN Sukasari 01 Periode 2008-2014</h1>
-                      <h2 style="font-size: medium">SMPN 1 Cikarang Selatan Periode 2014-2017</h2>
-                      <h3 style="font-size: medium">SMK Mitra Industri Periode 2017-2020</h3>
+                      <p style="font-style: small">Prestasi :</p>
+                      <p style="font-size: small">Ranking 2 Kelas 1 SD</p>
+                      <p style="font-size: small">Ranking 3 Kelas 3 SD</p>
+                      <p style="font-size: small">Ranking 4 Kelas 4 SD</p>
+                      <p style="font-size: small">Ranking 5 Kelas 5 SD</p>
+                      <p style="font-size: small">Ranking 2 Kelas 6 SD</p>
+                      <h2 style="font-size: Large">SMPN 1 Cikarang Selatan Periode 2014-2017</h2>
+                      <p style="font-style: small">Prestasi :</p>
+                      <p style="font-size: small">Ranking 1 Kelas 7</p>
+                      <p style="font-size: small">Ranking 10 Besar Kelas 8</p>
+                      <p style="font-size: small">Ranking 2 Kelas 9</p>
+                      <p style="font-size: small">Oragnisasi :</p>
+                      <p style="font-size: small">Oragnisasi Siswa Intra Sekolah</p>
+                      <p style="font-size: small">Ekskul PASKIBRA</p>
+                      <h3 style="font-size: Large">SMK Mitra Industri Periode 2017-2020</h3>
+                      <p style="font-style: small">Prestasi :</p>
+                      <p style="font-size: small">Ranking 1 Kelas 10</p>
+                      <p style="font-size: small">Ranking 1 Kelas 11</p>
+                      <p style="font-size: small">Oragnisasi :</p>
+                      <p style="font-size: small">Ekskul Rohani Islam</p>
+                      <h4 style="font-size: Large">Univesitas Pelita Bangsa Periode : 2023 - Sekarang</h4>
+                      <p style="font-style: small">Program Studi :</p>
+                      <p style="font-size: small">Teknik Informatika</p>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -96,42 +145,6 @@
                   </div>
                 </div>
               </div>
-      
-              <!-- Working Experience Modal -->
-              <div class="modal fade" id="workingExperienceModal" tabindex="-1" aria-labelledby="workingExperienceLabel" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="workingExperienceLabel">Working Experience</h1>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                          <h5>PT Jotun Indonesia</h5>
-                          <p>Posisi : Operator Produksi</p>
-                          <p>Periode: Juli 2020 -  September 2021</p>
-                        </li>
-                        <li class="list-group-item">
-                          <h5>PT JFE Steel Galvanizing Indonesia</h5>
-                          <p>Posisi : Quality Admin</p>
-                          <p>Period : Februari 2022 -  Februari 2024</p>
-                        </li>
-                        <li class="list-group-item">
-                          <h5>PT Denso Manufacturing Indonesia</h5>
-                          <p>Posisi : Operator Produksi</p>
-                          <p>Periode  : Juni 2024 - Now</p>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-      
-              <p class="text-center">Finish On</p>
             </div>
             <div class="col-sm">
               Saya memiliki beberapa kelebihan dan kekurangan. Kelebihan Saya yaitu Saya cenderung percaya diri ketika berbica di depan orang lain (public speaking) dan Saya juga merupakan pekerja keras. Sedangkan kekurangan Saya, sama halnya seperti orang lain yang terkadang mudah melupakan sesuatu dan Saya juga termasuk orang yang tidak mudah untuk beradaptasi dengan orang lain.
@@ -140,66 +153,64 @@
         </div>
       </section>
       
-      <section id="Achievement" class="Achievement">
+      <section id="Experience" class="Experience">
         <div class="container">
-            <h1 style="color: white" class="text-center">Pengalaman dan Prestasi</h1>
-            <div class="container text-center">
-              <div class="row">
-                <div class="col-sm-3">
-                  <div class="card mx-auto" style="width: 18rem;">
-                    <div class="card-body">
-                      <h5 class="card-title">Sekolah Dasar</h5>
-                      <p class="card-text">Ranking 2 Kelas 1 SD</p>
-                      <p class="card-text">Ranking 3 Kelas 3 SD</p>
-                      <p class="card-text">Ranking 4 Kelas 4 SD</p>
-                      <p class="card-text">Ranking 5 Kelas 5 SD</p>
-                      <p class="card-text">Ranking 2 Kelas 6 SD</p>
-                      <a href="#" class="card-link">Card link</a>
-                      <a href="#" class="card-link">Another link</a>
-                    </div>
+          <h1 style="color: white" class="text-center">Pengalaman Magang dan Kerja</h1>
+          <div class="container text-center">
+            <div class="row">
+              <!-- Card 1 -->
+              <div class="col-sm-3">
+                <div class="card mx-auto" style="width: 18rem;">
+                  <img src="assets/wooin.jpg" class="logo-small" alt="Logo Wooin">
+                  <div class="card-body">
+                    <h5 class="card-title">Magang di PT Wooin Indonesia</h5>
+                    <p class="card-text">Jabatan: Assembly Operator</p>
+                    <p class="card-text">Durasi: November 2018 - Februari 2019</p>
+                    <p class="card-text">Jobdesk : Perakitan dan Solder</p>
                   </div>
                 </div>
-                <div class="col-sm-3">
-                  <div class="card mx-auto" style="width: 18rem;">
-                    <div class="card-body">
-                      <h5 class="card-title">Sekolah Menengah Pertama</h5>
-                      <p class="card-text">Ranking 1 Kelas 7 </p>
-                      <p class="card-text">Ranking 10 Besar Kelas 8</p>
-                      <p class="card-text">Ranking 2 Kelas 9 </p>
-                      <a href="#" class="card-link">Card link</a>
-                      <a href="#" class="card-link">Another link</a>
-                    </div>
+              </div>
+              <!-- Card 2 -->
+              <div class="col-sm-3">
+                <div class="card mx-auto" style="width: 18rem;">
+                  <img src="assets/jotun.png" class="logo-small" alt="Logo Jotun">
+                  <div class="card-body">
+                    <h5 class="card-title">PT Jotun Indonesia</h5>
+                    <p class="card-text">Jabatan: Operator Produksi</p>
+                    <p class="card-text">Durasi: Juli 2020 - September 2021</p>
+                    <p class="card-text">Jobdesk : Labelling, Filling, Packing, dan Repacking</p>
                   </div>
                 </div>
-                <div class="col-sm-3">
-                  <div class="card mx-auto" style="width: 18rem;">
-                    <div class="card-body">
-                      <h5 class="card-title">Sekolah Menengah Kejuruan</h5>
-                      <p class="card-text">Ranking 1 Kelas 10</p>
-                      <p class="card-text">Ranking 1 Besar Kelas 11</p>
-                      <a href="#" class="card-link">Card link</a>
-                      <a href="#" class="card-link">Another link</a>
-                    </div>
+              </div>
+              <!-- Card 3 -->
+              <div class="col-sm-3">
+                <div class="card mx-auto" style="width: 18rem;">
+                  <img src="assets/jfe.png" class="logo-small" alt="Logo JFE">
+                  <div class="card-body">
+                    <h5 class="card-title">PT JFE Steel Galvanizing Indonesia</h5>
+                    <p class="card-text">Jabatan: Quality Admin</p>
+                    <p class="card-text">Durasi: Februari 2022 - Februari 2024</p>
+                    <p class="card-text">Tugas: Soft and Hard File Management, Steel Sample Management</p>
                   </div>
                 </div>
-                <div class="col-sm-3">
-                  <div class="card mx-auto" style="width: 18rem;">
-                    <div class="card-body">
-                      <h5 class="card-title">Pengalaman Organisasi</h5>
-                      <p class="card-text">Pramuka (Sekolah Dasar)</p>
-                      <p class="card-text">OSIS (Sekolah Menengah Pertama)</p>
-                      <p class="card-text">PASKIBRA (Sekolah Menengah Pertama</p>
-                      <p class="card-text">IRMAS (Lingkungan Masyarakat)</p>
-                      <p class="card-text">ROHIS (Sekolah Menengah Kejuruan)</p>
-                      <a href="#" class="card-link">Card link</a>
-                      <a href="#" class="card-link">Another link</a>
-                    </div>
+              </div>
+              <!-- Card 4 -->
+              <div class="col-sm-3">
+                <div class="card mx-auto" style="width: 18rem;">
+                  <img src="assets/denso.jpg" class="logo-small" alt="Logo Denso">
+                  <div class="card-body">
+                    <h5 class="card-title">PT Denso Indonesia</h5>
+                    <p class="card-text">Jabatan: Operator Produksi</p>
+                    <p class="card-text">Durasi: Juni 2024 - Sekarang</p>
+                    <p class="card-text">Tugas: Packing, Unpacking, dan Supply Material</p>
                   </div>
                 </div>
               </div>
             </div>
+          </div>
         </div>
       </section>
+      
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,224L48,197.3C96,171,192,117,288,117.3C384,117,480,171,576,202.7C672,235,768,245,864,240C960,235,1056,213,1152,181.3C1248,149,1344,107,1392,85.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
 
       </path>
@@ -211,7 +222,7 @@
         <a href="https://www.instagram.com/bdmnian20/profilecard/?igsh=YTdjZDkwZTI2bGpt"><i class="fa-brands fa-instagram"></i></a>
         <a href="https://www.facebook.com/profile.php?id=100010103491155"><i class="fa-brands fa-facebook"></i></a>
       </div>
-      <p class="text-center watermark">Created by Haris.B 2024</p>
+      <p class="text-center watermark">Created by Budimanian 2025</p>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
